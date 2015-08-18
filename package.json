@@ -12,7 +12,7 @@
     "test": "mocha --compilers js:babel/register",
     "build": "make -f ../naio/makefile",
     "build:dev": "make -f node_modules/naio/makefile",
-    "babel": "babel natrium.js -o index.js",
+    "babel": "babel torium.js -o index.js",
     "postinstall": "npm run build",
     "prepublish": "npm run babel",
     "push": "npm run babel && git add . && git commit && git push"
