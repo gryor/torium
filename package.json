@@ -1,11 +1,11 @@
 {
   "name": "torium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "libtorrent node.js bindings",
   "main": "index.js",
   "libraries": [
     "v8",
-	"sodium",
+    "sodium",
     "torrent"
   ],
   "scripts": {
